@@ -573,7 +573,7 @@ footer{
   .footer{
     display:grid;
     grid-template-columns:repeat(2,1fr);
-    gap:40px;
+    gap:100px;
     padding:30px 15px;
   }
 
