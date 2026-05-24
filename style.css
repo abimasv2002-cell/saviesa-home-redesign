@@ -543,5 +543,6 @@ footer{
 
  .footer{
     padding:30px 15px;
+    flex-direction:row;
   }
 }
