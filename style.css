@@ -432,10 +432,10 @@ footer{
   }
 
   .menu-icon{
-    /* display:block;
-    align:left; */
-    font-size:30px;
-    position:absolute;
+    display:block;
+    /* align:left; */
+    /* font-size:30px; */
+    /* position:absolute; */
     left:20px;
     top:15px;
   }
