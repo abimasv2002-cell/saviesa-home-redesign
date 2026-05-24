@@ -412,7 +412,7 @@ footer{
 
   /* Navbar */
   .navbar {
-    flex-direction: row;
+    flex-direction: column;
     padding: 15px;
     text-align: left;
     position:sticky;
