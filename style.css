@@ -435,7 +435,7 @@ footer{
     display:block;
     /* align:left; */
     /* font-size:30px; */
-    /* position:absolute; */
+    position:absolute;
     left:20px;
     top:15px;
   }
