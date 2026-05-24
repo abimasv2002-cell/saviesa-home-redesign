@@ -541,7 +541,7 @@ footer{
   height:auto;
   }
 
-  /* .footer{
-    padding:30px 20px;
-  } */
+ .footer{
+    padding:30px 15px;
+  }
 }
