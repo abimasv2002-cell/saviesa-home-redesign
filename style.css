@@ -456,9 +456,15 @@ footer{
   }
 
   .slide {
-    height: auto;
+    height: 100%;
+    width: 100%;
   }
 
+  .slide {
+    height: 100%;
+    width:100%;
+  }
+  
   /* Services */
   .service-container {
     grid-template-columns: 1fr;
