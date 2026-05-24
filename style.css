@@ -3,6 +3,9 @@
   padding:0;
   box-sizing:border-box;
 }
+/* html{
+  scroll-behavior:smooth;
+} */
 
 body{
   font-family:'Poppins', sans-serif;
@@ -41,6 +44,12 @@ nav a{
 
 nav a:hover{
   color:#c59d5f;
+}
+
+.menu-icon{
+  display:none;
+  font-size:28px;
+  cursor:pointer;
 }
 
 .btn{
@@ -202,7 +211,7 @@ nav a:hover{
   background:#837b7b;
 }
 
-@media(max-width:768px){
+/* @media(max-width:768px){
 
   .slides{
     height:350px;
@@ -212,7 +221,7 @@ nav a:hover{
     font-size:30px;
   }
 
-}
+} */
 .card{
   background:white;
   border-radius:15px;
@@ -305,9 +314,6 @@ nav a:hover{
   padding:20px;
 }
 
-#successMessage{
-  color:rgb(215, 230, 215);
-}
 .form-box{
   background:rgb(19, 17, 17);
   width:100%;
@@ -316,6 +322,10 @@ nav a:hover{
   border-radius:20px;
   position:relative;
   animation:popup 0.4s ease;
+}
+
+#successMessage{
+  color:rgb(215, 230, 215);
 }
 
 @keyframes popup{
@@ -393,16 +403,15 @@ footer{
   padding:50px;
 }
 
-/* .footer-container{
-  display:grid;
-  grid-template-columns:1fr;
-  gap:40px;
-} */
  .footer{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(100px,1fr));
   gap:40px;
 }
+
+/* .footer-text p{
+  color:rgb(209, 187, 187);
+} */
 
 /* media query */
 
@@ -412,7 +421,7 @@ footer{
   .navbar {
     flex-direction: column;
     padding: 15px;
-    text-align: left;
+    text-align:left;
     position:sticky;
   }
 
@@ -420,6 +429,25 @@ footer{
     flex-direction: row;
     gap: 15px;
     padding: 0;
+  }
+
+  .menu-icon{
+    display:block;
+  }
+
+  .nav-links{
+    display:none;
+    flex-direction:column;
+    position:absolute;
+    top:60px;
+    right:0;
+    background:#222;
+    width:200px;
+    padding:20px;
+  }
+
+  .nav-links.show{
+    display:flex;
   }
 
   .btn {
@@ -455,15 +483,16 @@ footer{
 
   .slide {
     height: 100%;
-    width: 100%;
-  }
-
-  .slide {
-    height: 100%;
     width:100%;
   }
-  
+
+  .slides{
+  position:relative;
+  width:100%;
+  }
+
   /* Services */
+
   .service-container {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -484,7 +513,6 @@ footer{
     padding: 20px;
   }
 
-  /* General Section Padding */
   section {
     padding: 40px 20px;
   }
@@ -536,13 +564,14 @@ footer{
   button {
     font-size: 14px;
   }
+
   img{
   max-width:100%;
   height:auto;
   }
 
- .footer{
-    /* padding:30px 15px; */
-    flex-direction:row;
+  .footer{
+    padding:30px 15px;
   }
+
 }
