@@ -569,7 +569,14 @@ footer{
   max-width:100%;
   height:auto;
   }
-
+  
+  footer{
+  background:#111;
+  color:rgb(209, 187, 187);
+  text-align:center;
+  padding:50px;
+  }
+  
   .footer{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
