@@ -542,7 +542,7 @@ footer{
   }
 
  .footer{
-    padding:30px 15px;
+    /* padding:30px 15px; */
     flex-direction:row;
   }
 }
