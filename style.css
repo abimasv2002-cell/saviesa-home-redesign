@@ -433,6 +433,7 @@ footer{
 
   .menu-icon{
     display:block;
+    align:left;
   }
 
   .nav-links{
