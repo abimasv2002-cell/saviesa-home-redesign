@@ -100,6 +100,10 @@ setInterval(()=>{
 
 }, 4000);
 
+function toggleMenu(){
+  document.getElementById("navLinks")
+          .classList.toggle("show");
+}
 
 /* POPUP FORM */
 
